@@ -1,14 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Personal Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Personal Portfolio</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    
+
+	<div class="page">
+		<header class="page-header">
+			<nav class="page-nav">
+				<span class="page-nav__hamburger">
+					<i class="fas fa-bars" aria-label="Menu"></i>
+				</span>
+				<ul class="page-nav__ul">
+					<li class="page-nav__li"><a href="#services" class="page-nav__item">Services</a></li>
+					<li class="page-nav__li"><a href="#portfolio" class="page-nav__item">My Work</a></li>
+					<li class="page-nav__li"><a href="#blog" class="page-nav__item">Blog</a></li>
+					<li class="page-nav__li"><a href="#contact" class="page-nav__item">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="welcome section">
+			<h1 class="welcome__title">
+				Welcome
+				<span class="welcome__title-complement">
+					to my personal portfolio
+				</span>
+			</h1>
+		</section>
+
+		<section class="services section" id="services">
+			<div class="site-width ma">
+				<h2 class="services__title section__title">Services & Price</h2>
+				<p class="services__intro-text section__intro-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, neque quaerat quae numquam vel alias soluta maxime
+					accusamus. Quas ullam non esse, magni quis alias nihil dignissimos! Delectus, a eaque.
+				</p>
+
+				<ul class="services__list row">
+					<li class="services__item services--1 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-cogs"></i>
+						</div>
+						<h3 class="services__item-title">Light Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+					<li class="services__item services--2 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-link"></i>
+						</div>
+						<h3 class="services__item-title">Standard Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+					<li class="services__item services--3 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-window-restore"></i>
+						</div>
+						<h3 class="services__item-title">Advanced Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+					<li class="services__item services--4 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-rocket"></i>
+						</div>
+						<h3 class="services__item-title">Gold Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+					<li class="services__item services--5 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-plug"></i>
+						</div>
+						<h3 class="services__item-title">Deluxe Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+					<li class="services__item services--6 col-xs-12 col-sm-6 col-lg-4">
+						<div class="services__item-icon">
+							<i class="fas fa-lightbulb"></i>
+						</div>
+						<h3 class="services__item-title">Ultimate Package</h3>
+						<p class="services__item-description">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat asperiores eos, odit, nulla numquam, iure
+							temporibus esse ab consequuntur expedita labore optio ullam eligendi quidem earum doloribus qui corrupti quia.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="portfolio section" id="portfolio">
+			<div class="site-width ma">
+				<h2 class="portfolio__title section__title">My Work</h2>
+				<p class="portfolio__intro-text section__intro-text">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium asperiores ullam ex neque quidem soluta!
+					Accusantium corrupti, nobis ea accusamus dolorum itaque. Provident voluptate est, nesciunt consequatur veritatis
+					quasi quis!
+				</p>
+
+				<div class="row">
+					<div class="portfolio__nav-column col-xs-12 col-md-3 col-lg-2">
+						<ul class="portfolio__nav">
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item is-active">All</a></li>
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item">Wedding</a></li>
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item">Family</a></li>
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item">At Home</a></li>
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item">Child</a></li>
+							<li class="portfolio__nav-li"><a href="#" class="portfolio__nav-item">Video</a></li>
+						</ul>
+					</div>
+					<div class="portfolio__list-column col-xs-12 col-md-9 col-lg-10">
+						<ul class="portfolio__list row">
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/horror_movie_3988.png" srcset="images/horror_movie_3988.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/group_selfie_ijc6.png" srcset="images/group_selfie_ijc6.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/meditating_0nae.png" srcset="images/meditating_0nae.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/teddy_bear_hns1.png" srcset="images/teddy_bear_hns1.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/wedding_t1yl.png" srcset="images/wedding_t1yl.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<a href="#" class="portfolio__item">
+									<img src="images/videographer_nnc7.png" srcset="images/videographer_nnc7.png 1x" alt="Thumbnail for [portfolio entry]">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blog section" id="blog">
+			<div class="site-width ma">
+				<h2 class="blog__title section__title">Blog</h2>
+				<p class="blog__intro-text section__intro-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur odit sapiente veniam repellendus earum
+					expedita, velit nulla pariatur debitis enim quaerat ipsa similique nostrum dicta fugit iusto natus quo!
+				</p>
+
+				<ul class="blog__list row">
+					<li class="blog__item col-xs-12 col-sm-6 col-lg-4">
+						<div class="blog__item-image-container">
+							<a href="#"><img src="images/blogging_vpvv.png" srcset="images/blogging_vpvv.png 1x" alt="Thumbnail for [post title]"></a>
+						</div>
+						<header class="blog__item-header">
+							<span class="blog__item-tags">
+								<a href="#" class="blog__item-tag">General</a>
+							</span>
+							<h3 class="blog__item-title"><a href="#">Lorem Ipsum</a></h3>
+						</header>
+						<div class="blog__item-excerpt">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit sequi amet molestias recusandae corrupti
+								voluptates voluptate pariatur, sit necessitatibus, quos ratione quia! Nostrum debitis sed provident? Quo,
+								quidem
+								aspernatur.
+							</p>
+							<a href="#" class="blog__item-read">Read more</a>
+						</div>
+					</li>
+					<li class="blog__item col-xs-12 col-sm-6 col-lg-4">
+						<div class="blog__item-image-container">
+							<a href="#"><img src="images/design_tools_42tf.png" srcset="images/design_tools_42tf.png 1x" alt="Thumbnail for [post title]"></a>
+						</div>
+						<header class="blog__item-header">
+							<span class="blog__item-tags">
+								<a href="#" class="blog__item-tag">General</a>
+							</span>
+							<h3 class="blog__item-title"><a href="#">Lorem Ipsum</a></h3>
+						</header>
+						<div class="blog__item-excerpt">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit sequi amet molestias recusandae corrupti
+								voluptates voluptate pariatur, sit necessitatibus, quos ratione quia! Nostrum debitis sed provident? Quo,
+								quidem
+								aspernatur.
+							</p>
+							<a href="#" class="blog__item-read">Read more</a>
+						</div>
+					</li>
+					<li class="blog__item col-xs-12 col-sm-6 col-lg-4">
+						<div class="blog__item-image-container">
+							<a href="#"><img src="images/focus_sey6.png" srcset="images/focus_sey6.png 1x" alt="Thumbnail for [post title]"></a>
+						</div>
+						<header class="blog__item-header">
+							<span class="blog__item-tags">
+								<a href="#" class="blog__item-tag">General</a>
+							</span>
+							<h3 class="blog__item-title"><a href="#">Lorem Ipsum</a></h3>
+						</header>
+						<div class="blog__item-excerpt">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit sequi amet molestias recusandae corrupti
+								voluptates voluptate pariatur, sit necessitatibus, quos ratione quia! Nostrum debitis sed provident? Quo,
+								quidem
+								aspernatur.
+							</p>
+							<a href="#" class="blog__item-read">Read more</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="contact section" id="contact">
+			<div class="contact__wrapper ma">
+				<h2 class="contact__title section__title">Contact me</h2>
+				<p class="contact__intro-text section__intro-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam sint ullam accusantium labore consequatur cum
+					officia eos? Quaerat alias nisi dicta accusantium porro pariatur consequuntur deleniti dolorem tempore officiis!
+				</p>
+				<form action="#" class="contact-form">
+					<div class="row">
+						<div class="contact-form__container col-xs-12 col-md-4">
+							<label for="contact-form__name" class="contact-form__label">Name</label>
+							<input type="text" name="name" class="contact-form__field" id="contact-form__name">
+						</div>
+						<div class="contact-form__container col-xs-12 col-md-4">
+							<label for="contact-form__phone" class="contact-form__label">Phone</label>
+							<input type="tel" name="phone" class="contact-form__field" id="contact-form__phone">
+						</div>
+						<div class="contact-form__container col-xs-12 col-md-4">
+							<label for="contact-form__email" class="contact-form__label">Email</label>
+							<input type="email" name="email" class="contact-form__field" id="contact-form__email">
+						</div>
+					</div>
+					<div class="contact-form__container">
+						<label for="contact-form__message" class="contact-form__label">Message</label>
+						<textarea name="message" id="contact-form__message" class="contact-form__field contact-form__field--message"></textarea>
+					</div>
+					<div class="ac">
+						<button class="contact-form__button">Send Message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer class="page-footer">
+			<div class="site-width ma">
+				<div class="row">
+					<div class="footer-module footer-module--call-me col-xs-12 col-md-6 col-lg-4">
+						<div class="footer-module__icon">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="footer-module__content">
+							<h2 class="footer-module__title">Call me</h2>
+							<p class="footer-module__text">
+								+22 22 333-3333 <br>
+								+22 22 555-7777
+							</p>
+						</div>
+					</div>
+					<div class="footer-module footer-module--address col-xs-12 col-md-6 col-lg-4">
+						<div class="footer-module__icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="footer-module__content">
+							<h2 class="footer-module__title">Address</h2>
+							<p class="footer-module__text">
+								20 ABK Street <br>
+								Ambatura, IND
+							</p>
+						</div>
+					</div>
+					<div class="footer-module footer-module--email col-xs-12 col-md-6 col-lg-4">
+						<div class="footer-module__icon">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="footer-module__content">
+							<h2 class="footer-module__title">Send me an email</h2>
+							<p class="footer-module__text"><a href="mailto:info@gmail.com">info@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/zepto.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
+
 </html>

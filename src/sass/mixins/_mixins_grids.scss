@@ -1,0 +1,13 @@
+@mixin generate_grid($type, $gutter) {
+    %col-#{$type}-base {
+        float: left;
+        padding-left: $gutter;
+        padding-right: $gutter;
+    }
+    @for $i from 1 through 12 {
+        .col-#{$type}-#{$i} {
+            @extend %col-#{$type}-base;
+            width: (100% / 12) * $i;
+        }
+    }
+}

@@ -4,7 +4,8 @@
   "description": "responsive-web-site-from-zero",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-wait": "0.0.2"
+  },
+  "dependencies": {
   }
 }
